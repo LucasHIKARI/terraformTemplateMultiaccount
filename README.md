@@ -8,3 +8,13 @@ CI/CDパイプラインの自動化も組み込まれており、再現性と拡
 開発・テスト・本番など複数の環境に対応 
 複数のプラットフォームに対応  
 CI/CD連携による自動デプロイ
+
+
+This repository provides a Terraform template designed to support multiple AWS accounts, multi-AZ architectures, and various environments such as development, staging, and production.
+It also integrates CI/CD pipelines for automated deployment, enabling scalable and reproducible infrastructure management.
+
+✅ Key Features:
+Multi-account support (suitable for AWS Organizations)
+High availability through multi-AZ architecture
+Supports multiple platforms/environments (dev, test, prod)
+Integrated CI/CD for automated deployments
