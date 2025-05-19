@@ -1,0 +1,28 @@
+{
+    "client": {
+        "repository": "https://gitlab.revolvesys-lab.net/binah/source/binahfront.git",
+        "branches": ["main", "develop"],
+        "env": {
+            "branch": "develop"
+        }
+    },
+    "terraform": {
+        "repository": "https://gitlab.revolvesys-lab.net/binah/source/terraform.git",
+        "branches": ["main", "develop"],
+        "mode": ["test", "dev", "prod"],
+        "env": {
+            "mode": "dev",
+            "platform": "aws",
+            "branch": "develop"
+        }
+    },
+    "server": {
+        "repository": "https://gitlab.revolvesys-lab.net/binah/source/binahback.git",
+        "branches": ["main", "develop"],
+        "mode": ["dev", "prod"],
+        "env": {
+            "mode": "dev",
+            "branch": "develop"
+        }
+    }
+}

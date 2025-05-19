@@ -1,0 +1,8 @@
+.venv
+*.lock.hcl
+*.tfstate
+*.tfstate.backup
+**/.terraform/
+client/*
+server/*
+build/*
